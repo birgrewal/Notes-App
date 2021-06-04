@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Notes App</h1>
+            <h4>Make notes to be productive!</h4>
+        </div>
+        <div class="setNotes">
+            <input type="text" name="noteInput" id="noteInput">
+            <input type="button" value="Add" id="addBtn">
+            <select name="filterSelect" id="filterSelect" class="select">
+                <option value="All">All</option>
+                <option value="Checked">Checked</option>
+                <option value="Unchecked">Unchecked</option>
+            </select>
+        </div>
+        <div class="noteShelf" id="noteShelf">
+            <ul></ul>
+        </div>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
